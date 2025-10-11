@@ -55,10 +55,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.4</version>
             </plugin>
-        </plugins>
-    </pluginManagement>
-
-    <plugins>
+ 
         <plugin>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-maven</artifactId>
@@ -72,6 +69,7 @@
             </executions>
         </plugin>
     </plugins>
+    </pluginManagement>
 </build>
 </project>
  
