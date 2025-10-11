@@ -49,28 +49,30 @@
   </dependencies>
   <build>
     <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.5.4</version>
-        </plugin>
-      </plugins>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.4</version>
+            </plugin>
+        </plugins>
     </pluginManagement>
-                       <plugin>
+
+    <plugins>
+        <plugin>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-maven</artifactId>
-            <version>2.16.1</version> <!-- Replace with the latest version -->
+            <version>2.16.1</version>
             <executions>
                 <execution>
                     <goals>
-                        <goal>serve</goal> <!-- Generates and serves the report -->
+                        <goal>serve</goal>
                     </goals>
                 </execution>
             </executions>
         </plugin>
-
-  </build>
+    </plugins>
+</build>
 </project>
  
  
