@@ -12,8 +12,8 @@ features="./src/test/resources/",
 glue="com.steps",
 plugin = {
 		"pretty",
-        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
-
+        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+        "html:target/cucumber-reports.html"
 },
 tags= "@Completed"
 )
