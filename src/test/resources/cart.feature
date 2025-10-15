@@ -1,5 +1,5 @@
 Feature: Cart Page Functionality
- 
+ @Completed
   Scenario: View cart page
     Given user is logged in
     And user is on the cart page
